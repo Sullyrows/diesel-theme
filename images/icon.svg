@@ -1,0 +1,9 @@
+<!-- SVG Icon for Cat Theme, convert to PNG for usage -->
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" fill="#282c34" rx="14" ry="14" />
+  <circle cx="64" cy="64" r="48" fill="#1e2127" />
+  <path d="M64 28 L80 60 L48 60 Z" fill="#FFC400" />
+  <path d="M64 100 L48 68 L80 68 Z" fill="#FFC400" />
+  <circle cx="64" cy="64" r="16" fill="#FFC400" />
+  <circle cx="64" cy="64" r="8" fill="#282c34" />
+</svg>
