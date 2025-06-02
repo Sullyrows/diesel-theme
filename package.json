@@ -1,14 +1,9 @@
 {
   "name": "cat-theme",
   "displayName": "Cat Theme",
-  "description": "A VSCode theme with a bright amber (#FFC400) accent color",
+  "description": "A VSCode theme with bright amber (#FFC400) accent color",
   "version": "0.1.0",
-  "publisher": "your-publisher-name",
-  "icon": "images/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/cat-theme"
-  },
+  "publisher": "cat-theme-publisher",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -22,11 +17,6 @@
     "cat",
     "gold"
   ],
-  "scripts": {
-    "preview": "node theme-preview.js",
-    "package": "vsce package",
-    "publish": "vsce publish"
-  },
   "contributes": {
     "themes": [
       {
@@ -36,5 +26,4 @@
       }
     ]
   }
-}
 }

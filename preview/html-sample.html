@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Theme Preview</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e2127;
+      color: #abb2bf;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .highlight {
+      color: #FFC400;
+      font-weight: bold;
+    }
+    
+    .card {
+      border: 1px solid #FFC400;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      background: #282c34;
+    }
+    
+    button {
+      background-color: #FFC400;
+      color: #000;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Cat Theme <span class="highlight">Preview</span></h1>
+    
+    <div class="card">
+      <h2>Theme Features</h2>
+      <ul>
+        <li>Primary color: <span class="highlight">#FFC400</span></li>
+        <li>Dark background for reduced eye strain</li>
+        <li>Carefully selected syntax highlighting</li>
+        <li>Consistent UI elements</li>
+      </ul>
+      <button onclick="alert('Theme looks great!')">Test Theme</button>
+    </div>
+    
+    <div class="card">
+      <h3>Code Examples</h3>
+      <p>Open the following files to see syntax highlighting:</p>
+      <ul>
+        <li><code>javascript-sample.js</code></li>
+        <li><code>python-sample.py</code></li>
+        <li><code>css-sample.css</code></li>
+      </ul>
+    </div>
+  </div>
+  
+  <script>
+    // JavaScript example
+    const theme = {
+      name: "Cat Theme",
+      primaryColor: "#FFC400",
+      type: "dark"
+    };
+    
+    console.log(`Testing ${theme.name} with primary color ${theme.primaryColor}`);
+  </script>
+</body>
+</html>
