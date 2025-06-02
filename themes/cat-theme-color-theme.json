@@ -4,8 +4,8 @@
   "type": "dark",
   "colors": {
     "activityBar.background": "#282c34",
-    "activityBar.foreground": "#FFC400",
-    "activityBar.inactiveForeground": "#FFC40080",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.inactiveForeground": "#abb2bf80",
     "activityBar.activeBorder": "#FFC400",
     "activityBarBadge.background": "#FFC400",
     "activityBarBadge.foreground": "#000000",
@@ -20,7 +20,7 @@
     "editor.background": "#1e2127",
     "editor.foreground": "#abb2bf",
     "editorLineNumber.foreground": "#636d83",
-    "editorLineNumber.activeForeground": "#FFC400",
+    "editorLineNumber.activeForeground": "#ffffff",
     "editorCursor.foreground": "#FFC400",
     "editor.selectionBackground": "#FFC40040",
     "editor.findMatchBackground": "#FFC40040",
@@ -30,14 +30,14 @@
     "editorGroup.border": "#181a1f",
     
     "tab.activeBackground": "#282c34",
-    "tab.activeForeground": "#FFC400",
+    "tab.activeForeground": "#ffffff",
     "tab.activeBorder": "#FFC400",
     "tab.inactiveBackground": "#21252b",
     "tab.inactiveForeground": "#abb2bf",
-    "tab.unfocusedActiveForeground": "#FFC400AA",
+    "tab.unfocusedActiveForeground": "#ffffff80",
     
     "titleBar.activeBackground": "#282c34",
-    "titleBar.activeForeground": "#FFC400",
+    "titleBar.activeForeground": "#ffffff",
     "titleBar.inactiveBackground": "#21252b",
     "titleBar.inactiveForeground": "#abb2bf",
     
@@ -47,13 +47,18 @@
     "statusBar.debuggingBackground": "#FFC400",
     
     "list.activeSelectionBackground": "#FFC40040",
-    "list.activeSelectionForeground": "#FFC400",
+    "list.activeSelectionForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#FFC40020",
     "list.hoverBackground": "#FFC40010",
     "list.highlightForeground": "#FFC400",
     
     "focusBorder": "#FFC400",
     "input.border": "#FFC40080",
+    "input.foreground": "#ffffff",
+    "input.background": "#282c34",
+    "dropdown.foreground": "#ffffff",
+    "dropdown.background": "#282c34",
+    "panelTitle.activeForeground": "#ffffff",
     "panelTitle.activeBorder": "#FFC400",
     "progressBar.background": "#FFC400",
     
@@ -83,9 +88,9 @@
     "sideBar.background": "#21252b",
     "sideBar.foreground": "#abb2bf",
     "sideBar.border": "#181a1f",
-    "sideBarTitle.foreground": "#FFC400",
+    "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#282c34",
-    "sideBarSectionHeader.foreground": "#FFC400"
+    "sideBarSectionHeader.foreground": "#ffffff"
   },
   "tokenColors": [
     {
