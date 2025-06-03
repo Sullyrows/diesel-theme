@@ -3,7 +3,7 @@
   "name": "Cat Theme",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#282c34",
+    "activityBar.background": "#1b1b1b",
     "activityBar.foreground": "#ffffff",
     "activityBar.inactiveForeground": "#abb2bf80",
     "activityBar.activeBorder": "#FFC400",
@@ -25,7 +25,10 @@
     "editor.selectionBackground": "#FFC40040",
     "editor.findMatchBackground": "#FFC40040",
     "editor.findMatchHighlightBackground": "#FFC40020",
-    
+    "editorSuggestWidget.background": "#181819",
+    "editorSuggestWidget.highlightForeground": "#ffc400",
+    "editorSuggestWidget.border": "#FFC400",
+
     "editorGroupHeader.tabsBackground": "#21252b",
     "editorGroup.border": "#181a1f",
     
@@ -44,7 +47,8 @@
     "statusBar.background": "#FFC400",
     "statusBar.foreground": "#000000",
     "statusBar.noFolderBackground": "#FFC400",
-    "statusBar.debuggingBackground": "#FFC400",
+    "statusBar.debuggingBackground": "#e2e2e2",
+    "statusBar.debuggingForeground": "#191919",
     
     "list.activeSelectionBackground": "#FFC40040",
     "list.activeSelectionForeground": "#ffffff",
@@ -52,7 +56,7 @@
     "list.hoverBackground": "#FFC40010",
     "list.highlightForeground": "#FFC400",
     
-    "focusBorder": "#FFC400",
+    "focusBorder": "#767676",
     "input.border": "#FFC40080",
     "input.foreground": "#ffffff",
     "input.background": "#282c34",
